@@ -1,0 +1,539 @@
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
+\begin_document
+\begin_header
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_math auto
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+CRMDA Python Workgroup (2016-2017)
+\end_layout
+
+\begin_layout Author
+Boryana Koseva
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset toc
+LatexCommand tableofcontents
+
+\end_inset
+
+
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Part
+Workgroup Meeting Format
+\end_layout
+
+\begin_layout Standard
+My initial thought on the overall format is that we should focus on a few
+ 
+\begin_inset Quotes eld
+\end_inset
+
+core
+\begin_inset Quotes erd
+\end_inset
+
+ topics during the first half of the semester.
+ I envision that this part would be somewhat fast-paced.
+ During the second half of the semester, we can explore more advanced topics.
+ These topics can be tailored specifically to the participants.
+ We could ask them to fill out a survey and tell us what their specific
+ interests are (if any), or provide them with a numbered of predefined topics
+ and ask for their preference.
+ It is my experience that if using applications related to the participants'
+ interests will help retain more people until the end of the semester.
+ 
+\end_layout
+
+\begin_layout Standard
+Other thoughts on the workgroup format:
+\end_layout
+
+\begin_layout Itemize
+ask participants to have a sample of data file that they normally work with?
+\end_layout
+
+\begin_layout Itemize
+bi-weekly meetings; the in-between week could serve as a time for participants
+ to come ask questions about the material we have covered?
+\end_layout
+
+\begin_layout Itemize
+instead of having different people present every week, we can have one person
+ do a short overview of the material, and then we turn it around to the
+ participants to practice with guided examples?
+\end_layout
+
+\begin_layout Part
+Core Topics
+\end_layout
+
+\begin_layout Section
+Why learn to program?
+\end_layout
+
+\begin_layout Itemize
+What is a program?
+\end_layout
+
+\begin_layout Itemize
+The advantages of learning to program?
+\end_layout
+
+\begin_layout Itemize
+Real life examples of projects one could do in Python
+\end_layout
+
+\begin_layout Section
+Introduction to Programming in Python
+\end_layout
+
+\begin_layout Itemize
+What is Python and why should you use Python?
+\end_layout
+
+\begin_layout Itemize
+Interacting with Python
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+IDLE/Spyder
+\end_layout
+
+\begin_layout Itemize
+Command Line
+\end_layout
+
+\begin_layout Itemize
+IPython Notebook *
+\end_layout
+
+\begin_layout Quotation
+I strongly recommend the last option
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+How to run a Python program?
+\end_layout
+
+\begin_layout Itemize
+Data types and data structures in Python
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Variables
+\end_layout
+
+\begin_layout Itemize
+Data types (including 
+\shape italic
+None
+\shape default
+)
+\end_layout
+
+\begin_layout Itemize
+Expressions
+\end_layout
+
+\begin_layout Itemize
+Data Structures
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Getting help and debugging your code
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Understanding error messages
+\end_layout
+
+\begin_layout Itemize
+Modules (
+\shape italic
+import
+\shape default
+)
+\end_layout
+
+\begin_layout Itemize
+Logging module
+\end_layout
+
+\begin_layout Itemize
+IDLE's Debugger
+\end_layout
+
+\end_deeper
+\begin_layout Section
+Lists, Dictionaries, and other Data Structures
+\end_layout
+
+\begin_layout Itemize
+Slicing
+\end_layout
+
+\begin_layout Itemize
+
+\shape italic
+Len
+\end_layout
+
+\begin_layout Itemize
+
+\shape italic
+Index
+\end_layout
+
+\begin_layout Itemize
+
+\shape italic
+Append
+\end_layout
+
+\begin_layout Itemize
+
+\shape italic
+Ins
+\shape default
+ert
+\end_layout
+
+\begin_layout Itemize
+
+\shape italic
+Remove
+\end_layout
+
+\begin_layout Itemize
+
+\shape italic
+Sort
+\end_layout
+
+\begin_layout Itemize
+
+\shape italic
+Keys
+\end_layout
+
+\begin_layout Itemize
+
+\shape italic
+Values
+\end_layout
+
+\begin_layout Itemize
+Nesting
+\end_layout
+
+\begin_layout Section
+Manipulating Strings and Regular Expressions
+\end_layout
+
+\begin_layout Itemize
+
+\shape italic
+Slicing
+\end_layout
+
+\begin_layout Itemize
+
+\shape italic
+Indexing
+\end_layout
+
+\begin_layout Itemize
+
+\shape italic
+Upper
+\shape default
+/
+\shape italic
+lower
+\end_layout
+
+\begin_layout Itemize
+
+\shape italic
+isX
+\end_layout
+
+\begin_layout Itemize
+
+\shape italic
+Startswith
+\shape default
+/
+\shape italic
+endswith
+\end_layout
+
+\begin_layout Itemize
+
+\shape italic
+Join
+\shape default
+/
+\shape italic
+split
+\end_layout
+
+\begin_layout Itemize
+
+\shape italic
+Strip
+\shape default
+/
+\shape italic
+rstrip
+\shape default
+/
+\shape italic
+lsplit
+\end_layout
+
+\begin_layout Itemize
+Regex (
+\shape italic
+search
+\shape default
+, 
+\shape italic
+groups
+\shape default
+, 
+\shape italic
+findall
+\shape default
+)
+\end_layout
+
+\begin_layout Section
+Functions
+\end_layout
+
+\begin_layout Itemize
+Defining functions
+\end_layout
+
+\begin_layout Itemize
+Local/global variables
+\end_layout
+
+\begin_layout Itemize
+Error handling (including 
+\shape italic
+sys.exit
+\shape default
+)
+\end_layout
+
+\begin_layout Section
+Flow Control and Top-Down Programming
+\end_layout
+
+\begin_layout Itemize
+Boolean velues and operators
+\end_layout
+
+\begin_layout Itemize
+Comparison operators
+\end_layout
+
+\begin_layout Itemize
+Conditional statements (
+\shape italic
+if
+\shape default
+, 
+\shape italic
+elif
+\shape default
+, 
+\shape italic
+else
+\shape default
+)
+\end_layout
+
+\begin_layout Itemize
+Loops (
+\shape italic
+for
+\shape default
+, 
+\shape italic
+while
+\shape default
+)
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\shape italic
+break
+\shape default
+, 
+\shape italic
+continue
+\shape default
+, 
+\shape italic
+range
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Top-down programming principles
+\end_layout
+
+\begin_layout Section
+Reading/Writing Files and Organizing Project Directories
+\end_layout
+
+\begin_layout Itemize
+File/directory paths (absolute vs relative paths, OSX vs Windows)
+\end_layout
+
+\begin_layout Itemize
+Working directory
+\end_layout
+
+\begin_layout Itemize
+Directory contents
+\end_layout
+
+\begin_layout Itemize
+
+\shape italic
+Open (r, w, a)
+\end_layout
+
+\begin_layout Itemize
+Shutil 
+\end_layout
+
+\begin_layout Section
+Plotting in Python
+\end_layout
+
+\begin_layout Itemize
+Matplotlib
+\end_layout
+
+\begin_layout Part
+Possible Advanced Topics
+\end_layout
+
+\begin_layout Itemize
+Data manipulation with Pandas (I think this could easily be a core topic
+ depending on the audience)
+\end_layout
+
+\begin_layout Itemize
+Web scrapping
+\end_layout
+
+\begin_layout Itemize
+Working with Excel spreadsheets, PDF, Word files, CSV files, JSON Data
+\end_layout
+
+\begin_layout Itemize
+Keeping time, scheduling tasks, and launching programs
+\end_layout
+
+\begin_layout Itemize
+Sending email and text messages
+\end_layout
+
+\begin_layout Itemize
+Manipulating images
+\end_layout
+
+\begin_layout Itemize
+Controlling the keyboard and mouse with GUI automation
+\end_layout
+
+\begin_layout Itemize
+More...
+\end_layout
+
+\end_body
+\end_document
