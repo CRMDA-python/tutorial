@@ -83,55 +83,6 @@ LatexCommand tableofcontents
 \end_inset
 
 
-\begin_inset Newpage newpage
-\end_inset
-
-
-\end_layout
-
-\begin_layout Part
-Workgroup Meeting Format
-\end_layout
-
-\begin_layout Standard
-My initial thought on the overall format is that we should focus on a few
- 
-\begin_inset Quotes eld
-\end_inset
-
-core
-\begin_inset Quotes erd
-\end_inset
-
- topics during the first half of the semester.
- I envision that this part would be somewhat fast-paced.
- During the second half of the semester, we can explore more advanced topics.
- These topics can be tailored specifically to the participants.
- We could ask them to fill out a survey and tell us what their specific
- interests are (if any), or provide them with a numbered of predefined topics
- and ask for their preference.
- It is my experience that if using applications related to the participants'
- interests will help retain more people until the end of the semester.
- 
-\end_layout
-
-\begin_layout Standard
-Other thoughts on the workgroup format:
-\end_layout
-
-\begin_layout Itemize
-ask participants to have a sample of data file that they normally work with?
-\end_layout
-
-\begin_layout Itemize
-bi-weekly meetings; the in-between week could serve as a time for participants
- to come ask questions about the material we have covered?
-\end_layout
-
-\begin_layout Itemize
-instead of having different people present every week, we can have one person
- do a short overview of the material, and then we turn it around to the
- participants to practice with guided examples?
 \end_layout
 
 \begin_layout Part
@@ -192,6 +143,60 @@ target "https://automatetheboringstuff.com/chapter1/"
 
 \end_layout
 
+\begin_deeper
+\begin_layout Itemize
+Entering expressions into the interactive shell
+\end_layout
+
+\begin_layout Itemize
+The integer, floating-point, and string data type
+\end_layout
+
+\begin_layout Itemize
+String concatenation and replication
+\end_layout
+
+\begin_layout Itemize
+Storing values in variables
+\end_layout
+
+\begin_layout Itemize
+Assignment statements
+\end_layout
+
+\begin_layout Itemize
+Variable names
+\end_layout
+
+\begin_layout Itemize
+Your first program 
+\end_layout
+
+\begin_layout Itemize
+Comments
+\end_layout
+
+\begin_layout Itemize
+The print() function
+\end_layout
+
+\begin_layout Itemize
+The input() function
+\end_layout
+
+\begin_layout Itemize
+Printing the user's name
+\end_layout
+
+\begin_layout Itemize
+The len() function
+\end_layout
+
+\begin_layout Itemize
+The str(), int(), float() functions
+\end_layout
+
+\end_deeper
 \begin_layout Itemize
 Importing Modules and sys.exit()
 \end_layout
