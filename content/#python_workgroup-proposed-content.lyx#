@@ -69,11 +69,24 @@
 \begin_body
 
 \begin_layout Title
-CRMDA Python Workgroup (Fall 2016)
+CRMDA Python Workgroup (2016-2017)
 \end_layout
 
 \begin_layout Author
 Boryana Koseva
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset toc
+LatexCommand tableofcontents
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Part
+Core Topics
 \end_layout
 
 \begin_layout Subsubsection*
@@ -116,7 +129,7 @@ Starting a Jupyter Notebook
 \end_layout
 
 \begin_layout Itemize
-Python IDLE and IDEs
+Python IDEs
 \end_layout
 
 \begin_layout Itemize
@@ -256,35 +269,21 @@ Program execusion
 \end_layout
 
 \begin_layout Itemize
-Flow control statements
+Flow control state
 \end_layout
 
 \begin_layout Itemize
-if, elif, and else statements
+if, elif, and else
 \end_layout
 
 \begin_layout Itemize
-while Loops
+while Loops, break, continue
 \end_layout
 
 \begin_layout Itemize
-break, continue statements
+for Loops, and range()
 \end_layout
 
-\begin_layout Itemize
-for Loops
-\end_layout
-
-\begin_layout Itemize
-range() function
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-starting, stopping, stepping arguments to range()
-\end_layout
-
-\end_deeper
 \end_deeper
 \begin_layout Itemize
 \begin_inset CommandInset href
@@ -474,7 +473,7 @@ Nested dictionaries and lists
 
 \end_deeper
 \begin_layout Section*
-Week #4 (09/23/2016): Manipulating Strings and Regular Expressions
+Week 4 (09/23/2016): Manipulating Strings and Regular Expressions
 \end_layout
 
 \begin_layout Itemize
