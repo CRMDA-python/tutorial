@@ -490,41 +490,49 @@ Open (r, w, a)
 Shutil 
 \end_layout
 
-\begin_layout Standard
+\begin_layout Section
 Plotting in Python
+\end_layout
+
+\begin_layout Itemize
+Matplotlib
 \end_layout
 
 \begin_layout Part
 Possible Advanced Topics
 \end_layout
 
-\begin_layout Standard
+\begin_layout Itemize
 Data manipulation with Pandas (I think this could easily be a core topic
  depending on the audience)
 \end_layout
 
-\begin_layout Standard
+\begin_layout Itemize
 Web scrapping
 \end_layout
 
-\begin_layout Standard
+\begin_layout Itemize
 Working with Excel spreadsheets, PDF, Word files, CSV files, JSON Data
 \end_layout
 
-\begin_layout Standard
+\begin_layout Itemize
 Keeping time, scheduling tasks, and launching programs
 \end_layout
 
-\begin_layout Standard
+\begin_layout Itemize
 Sending email and text messages
 \end_layout
 
-\begin_layout Standard
+\begin_layout Itemize
 Manipulating images
 \end_layout
 
-\begin_layout Standard
+\begin_layout Itemize
 Controlling the keyboard and mouse with GUI automation
+\end_layout
+
+\begin_layout Itemize
+More...
 \end_layout
 
 \end_body

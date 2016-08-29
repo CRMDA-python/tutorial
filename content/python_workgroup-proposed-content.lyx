@@ -138,401 +138,655 @@ instead of having different people present every week, we can have one person
 Core Topics
 \end_layout
 
-\begin_layout Section
-Why learn to program?
+\begin_layout Subsubsection*
+Main Text: 
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset href
+LatexCommand href
+name "Automate the Boring Stuff with Python by Al Sweigart"
+target "https://automatetheboringstuff.com/"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+I will refer to the text as 
+\begin_inset Quotes eld
+\end_inset
+
+The Boring Stuff
+\begin_inset Quotes erd
+\end_inset
+
+ from here on
+\end_layout
+
+\begin_layout Section*
+Week #1 (09/02/2016): Introduction 
 \end_layout
 
 \begin_layout Itemize
-What is a program?
+Downloading and installing Anaconda
 \end_layout
 
 \begin_layout Itemize
-The advantages of learning to program?
+Starting a Jupyter Notebook
 \end_layout
 
 \begin_layout Itemize
-Real life examples of projects one could do in Python
-\end_layout
-
-\begin_layout Section
-Introduction to Programming in Python
+Python IDEs
 \end_layout
 
 \begin_layout Itemize
-What is Python and why should you use Python?
+\begin_inset CommandInset href
+LatexCommand href
+name "The Boring Stuff - Chapter 1: Python Basics"
+target "https://automatetheboringstuff.com/chapter1/"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Itemize
-Interacting with Python
+Importing Modules and sys.exit()
 \end_layout
 
 \begin_deeper
 \begin_layout Itemize
-IDLE/Spyder
+Go to
+\begin_inset CommandInset href
+LatexCommand href
+name " Chapter 2"
+target "https://automatetheboringstuff.com/chapter2/"
+
+\end_inset
+
+ and use your browser's Find function to search for 'Importing Modules'
 \end_layout
 
 \begin_layout Itemize
-Command Line
-\end_layout
-
-\begin_layout Itemize
-IPython Notebook *
-\end_layout
-
-\begin_layout Quotation
-I strongly recommend the last option
+Note: Don't be confused by the lack of information on the pyperclip module;
+ it is discussed later (Week #4)
 \end_layout
 
 \end_deeper
-\begin_layout Itemize
-How to run a Python program?
+\begin_layout Section*
+Week #2 (09/09/2016): Flow Control and Functions
 \end_layout
 
 \begin_layout Itemize
-Data types and data structures in Python
+\begin_inset CommandInset href
+LatexCommand href
+name "The Boring Stuff - Chapter 2: Flow Control"
+target "https://automatetheboringstuff.com/chapter2/"
+
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
 \begin_layout Itemize
-Variables
+Flow charts, boolean values, comparison operators, boolean operators
 \end_layout
 
 \begin_layout Itemize
-Data types (including 
-\shape italic
-None
-\shape default
-)
+if, elif, and else
 \end_layout
 
 \begin_layout Itemize
-Expressions
+while Loops, break, continue
 \end_layout
 
 \begin_layout Itemize
-Data Structures
+for Loops, and range()
 \end_layout
 
 \end_deeper
 \begin_layout Itemize
-Getting help and debugging your code
+\begin_inset CommandInset href
+LatexCommand href
+name "The Boring Stuff - Chapter 3: Functions"
+target "https://automatetheboringstuff.com/chapter3/"
+
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
 \begin_layout Itemize
-Understanding error messages
+def statements, parameters, return statements, and return values
 \end_layout
 
 \begin_layout Itemize
-Modules (
-\shape italic
-import
-\shape default
-)
+keyword arguments and print()
 \end_layout
 
 \begin_layout Itemize
-Logging module
+Local vs.
+ Global variables
 \end_layout
 
 \begin_layout Itemize
-IDLE's Debugger
+the global statement
 \end_layout
 
 \end_deeper
-\begin_layout Section
-Lists, Dictionaries, and other Data Structures
+\begin_layout Section*
+Week #3 (09/16/2016): Lists, Dictionaries, and Data Structures
 \end_layout
 
 \begin_layout Itemize
-Slicing
-\end_layout
+\begin_inset CommandInset href
+LatexCommand href
+name "The Boring Stuff - Chapter 4: Lists"
+target "https://automatetheboringstuff.com/chapter4/"
 
-\begin_layout Itemize
+\end_inset
 
-\shape italic
-Len
-\end_layout
 
-\begin_layout Itemize
-
-\shape italic
-Index
-\end_layout
-
-\begin_layout Itemize
-
-\shape italic
-Append
-\end_layout
-
-\begin_layout Itemize
-
-\shape italic
-Ins
-\shape default
-ert
-\end_layout
-
-\begin_layout Itemize
-
-\shape italic
-Remove
-\end_layout
-
-\begin_layout Itemize
-
-\shape italic
-Sort
-\end_layout
-
-\begin_layout Itemize
-
-\shape italic
-Keys
-\end_layout
-
-\begin_layout Itemize
-
-\shape italic
-Values
-\end_layout
-
-\begin_layout Itemize
-Nesting
-\end_layout
-
-\begin_layout Section
-Manipulating Strings and Regular Expressions
-\end_layout
-
-\begin_layout Itemize
-
-\shape italic
-Slicing
-\end_layout
-
-\begin_layout Itemize
-
-\shape italic
-Indexing
-\end_layout
-
-\begin_layout Itemize
-
-\shape italic
-Upper
-\shape default
-/
-\shape italic
-lower
-\end_layout
-
-\begin_layout Itemize
-
-\shape italic
-isX
-\end_layout
-
-\begin_layout Itemize
-
-\shape italic
-Startswith
-\shape default
-/
-\shape italic
-endswith
-\end_layout
-
-\begin_layout Itemize
-
-\shape italic
-Join
-\shape default
-/
-\shape italic
-split
-\end_layout
-
-\begin_layout Itemize
-
-\shape italic
-Strip
-\shape default
-/
-\shape italic
-rstrip
-\shape default
-/
-\shape italic
-lsplit
-\end_layout
-
-\begin_layout Itemize
-Regex (
-\shape italic
-search
-\shape default
-, 
-\shape italic
-groups
-\shape default
-, 
-\shape italic
-findall
-\shape default
-)
-\end_layout
-
-\begin_layout Section
-Functions
-\end_layout
-
-\begin_layout Itemize
-Defining functions
-\end_layout
-
-\begin_layout Itemize
-Local/global variables
-\end_layout
-
-\begin_layout Itemize
-Error handling (including 
-\shape italic
-sys.exit
-\shape default
-)
-\end_layout
-
-\begin_layout Section
-Flow Control and Top-Down Programming
-\end_layout
-
-\begin_layout Itemize
-Boolean velues and operators
-\end_layout
-
-\begin_layout Itemize
-Comparison operators
-\end_layout
-
-\begin_layout Itemize
-Conditional statements (
-\shape italic
-if
-\shape default
-, 
-\shape italic
-elif
-\shape default
-, 
-\shape italic
-else
-\shape default
-)
-\end_layout
-
-\begin_layout Itemize
-Loops (
-\shape italic
-for
-\shape default
-, 
-\shape italic
-while
-\shape default
-)
 \end_layout
 
 \begin_deeper
 \begin_layout Itemize
+The list data type
+\end_layout
 
-\shape italic
-break
-\shape default
-, 
-\shape italic
-continue
-\shape default
-, 
-\shape italic
-range
+\begin_layout Itemize
+Getting individual values in a list with indeces
+\end_layout
+
+\begin_layout Itemize
+Negative indeces
+\end_layout
+
+\begin_layout Itemize
+Getting sublists with slices
+\end_layout
+
+\begin_layout Itemize
+Getting a list's length with len()
+\end_layout
+
+\begin_layout Itemize
+Changing values in a list with indeces
+\end_layout
+
+\begin_layout Itemize
+List concatenation and list replication 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Copying a list with [:]
 \end_layout
 
 \end_deeper
 \begin_layout Itemize
-Top-down programming principles
-\end_layout
-
-\begin_layout Section
-Reading/Writing Files and Organizing Project Directories
+Removing values from lists with del statements
 \end_layout
 
 \begin_layout Itemize
-File/directory paths (absolute vs relative paths, OSX vs Windows)
+Working with lists
 \end_layout
 
 \begin_layout Itemize
-Working directory
+Using for loops with lists
 \end_layout
 
 \begin_layout Itemize
-Directory contents
+The in and not in operators
 \end_layout
 
 \begin_layout Itemize
-
-\shape italic
-Open (r, w, a)
+The multiple assignment trick
 \end_layout
 
 \begin_layout Itemize
-Shutil 
-\end_layout
-
-\begin_layout Section
-Plotting in Python
+Augmented Assignment Operators
 \end_layout
 
 \begin_layout Itemize
-Matplotlib
-\end_layout
-
-\begin_layout Part
-Possible Advanced Topics
+List Methods: index(), append(), insert(), remove(), and sort()
 \end_layout
 
 \begin_layout Itemize
-Data manipulation with Pandas (I think this could easily be a core topic
- depending on the audience)
+Strings and Tuples: list-like data types
 \end_layout
 
 \begin_layout Itemize
-Web scrapping
+Mutable and immutable data types
 \end_layout
 
 \begin_layout Itemize
-Working with Excel spreadsheets, PDF, Word files, CSV files, JSON Data
+Tuples
 \end_layout
 
 \begin_layout Itemize
-Keeping time, scheduling tasks, and launching programs
+list() and tuple()
 \end_layout
 
 \begin_layout Itemize
-Sending email and text messages
+References
 \end_layout
 
 \begin_layout Itemize
-Manipulating images
+Passing references
 \end_layout
 
 \begin_layout Itemize
-Controlling the keyboard and mouse with GUI automation
+copy Module: copy() and deepcopy()
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+\begin_inset CommandInset href
+LatexCommand href
+name "The Boring Stuff - Chapter 5: Dictionaries and Structuring Data"
+target "https://automatetheboringstuff.com/chapter5/"
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+The dictionary data type
 \end_layout
 
 \begin_layout Itemize
-More...
+Dictionaries vs.
+ Lists
+\end_layout
+
+\begin_layout Itemize
+Dictionaries methods: keys(), values(), items()
+\end_layout
+
+\begin_layout Itemize
+Checking whether a key or a value exists in a dictionary
+\end_layout
+
+\begin_layout Itemize
+get() method
+\end_layout
+
+\begin_layout Itemize
+setdefault() method
+\end_layout
+
+\begin_layout Itemize
+Pretty printing with pprint Module
+\end_layout
+
+\begin_layout Itemize
+Using data structures to model real-world things
+\end_layout
+
+\begin_layout Itemize
+Nested dictionaries and lists
+\end_layout
+
+\end_deeper
+\begin_layout Section*
+Week 4 (09/23/2016): Manipulating Strings and Regular Expressions
+\end_layout
+
+\begin_layout Itemize
+\begin_inset CommandInset href
+LatexCommand href
+name "The Boring Stuff - Chpter 6: Manipulating Strings"
+target "https://automatetheboringstuff.com/chapter6/"
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Working with strings
+\end_layout
+
+\begin_layout Itemize
+String literals
+\end_layout
+
+\begin_layout Itemize
+Double quotes 
+\end_layout
+
+\begin_layout Itemize
+Escape characters
+\end_layout
+
+\begin_layout Itemize
+Raw strings 
+\end_layout
+
+\begin_layout Itemize
+Multiline strings with triple quotes
+\end_layout
+
+\begin_layout Itemize
+Multiline comments
+\end_layout
+
+\begin_layout Itemize
+Indexing and slicing strings
+\end_layout
+
+\begin_layout Itemize
+The in and not in operators with strings
+\end_layout
+
+\begin_layout Itemize
+String methods: upper(), lower(), isupper(), islower()
+\end_layout
+
+\begin_layout Itemize
+isX() string method
+\end_layout
+
+\begin_layout Itemize
+startswith() and endswith()
+\end_layout
+
+\begin_layout Itemize
+join() and split()
+\end_layout
+
+\begin_layout Itemize
+Justifying text with rjust(), ljust(), and center()
+\end_layout
+
+\begin_layout Itemize
+Removing whitespace with strip(), rstrip(), and lstrip()
+\end_layout
+
+\begin_layout Itemize
+Copying and pasting strings with the pyperclip method
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+\begin_inset CommandInset href
+LatexCommand href
+name "The Boring Stuff - Chapter 7: Pattern Matching with Regular Expressions"
+target "https://automatetheboringstuff.com/chapter7/"
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Finding patterns of text without RE
+\end_layout
+
+\begin_layout Itemize
+Finding patterns of text with RE
+\end_layout
+
+\begin_layout Itemize
+Creating regex objects
+\end_layout
+
+\begin_layout Itemize
+Matching regex objects
+\end_layout
+
+\begin_layout Itemize
+Grouping with parentheses 
+\end_layout
+
+\begin_layout Itemize
+Matching multiple groups with the pipe
+\end_layout
+
+\begin_layout Itemize
+optional matching with the question mark
+\end_layout
+
+\begin_layout Itemize
+Matching zero or more with the star
+\end_layout
+
+\begin_layout Itemize
+Matching one or more with the plus
+\end_layout
+
+\begin_layout Itemize
+Matching specific repetitions with curly brackets
+\end_layout
+
+\begin_layout Itemize
+Greedy and nongreedy matching
+\end_layout
+
+\begin_layout Itemize
+findall()
+\end_layout
+
+\begin_layout Itemize
+Character classes
+\end_layout
+
+\begin_layout Itemize
+Making your own character classes
+\end_layout
+
+\begin_layout Itemize
+The caret and dollar sign characters
+\end_layout
+
+\begin_layout Itemize
+The wildcard character
+\end_layout
+
+\begin_layout Itemize
+Matching everything with dot-star
+\end_layout
+
+\begin_layout Itemize
+Matching newlines with the dot character
+\end_layout
+
+\begin_layout Itemize
+Case-insensitive matching
+\end_layout
+
+\begin_layout Itemize
+Substituting strings with the sub() method
+\end_layout
+
+\begin_layout Itemize
+Managing complex regexes
+\end_layout
+
+\begin_layout Itemize
+Combining re.IGNORECASE, re.DOTALL, and re.VERBOSE
+\end_layout
+
+\end_deeper
+\begin_layout Section*
+Week #5 (09/30/2016): Input/Output (I/O) Functions
+\end_layout
+
+\begin_layout Itemize
+\begin_inset CommandInset href
+LatexCommand href
+name "The Boring Stuff - Chapter 8: Reading and Writing Files"
+target "https://automatetheboringstuff.com/chapter8/"
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Reading and writing files 
+\end_layout
+
+\begin_layout Itemize
+Files and file paths 
+\end_layout
+
+\begin_layout Itemize
+Backslash on Windows and forward slash on OS X and Linux
+\end_layout
+
+\begin_layout Itemize
+The current working directory 
+\end_layout
+
+\begin_layout Itemize
+Absolute vs.
+ relative paths 
+\end_layout
+
+\begin_layout Itemize
+Creating new folders with os.makedirs()
+\end_layout
+
+\begin_layout Itemize
+The os.path Module
+\end_layout
+
+\begin_layout Itemize
+Handling absolute and relative paths
+\end_layout
+
+\begin_layout Itemize
+Finding file sizes and folder contents
+\end_layout
+
+\begin_layout Itemize
+Checking path validity 
+\end_layout
+
+\begin_layout Itemize
+The file reading/writing process
+\end_layout
+
+\begin_layout Itemize
+Opening files with the open() function
+\end_layout
+
+\begin_layout Itemize
+Reading the contents of files
+\end_layout
+
+\begin_layout Itemize
+Writing to files
+\end_layout
+
+\begin_layout Itemize
+Saving variables with the shelve Module
+\end_layout
+
+\begin_layout Itemize
+Saving variables with the pprint.pformat() function
+\end_layout
+
+\end_deeper
+\begin_layout Section*
+Week #6 (10/07/2016): Running Programs and Debugging
+\end_layout
+
+\begin_layout Itemize
+\begin_inset CommandInset href
+LatexCommand href
+name "The Boring Stuff - Appendix B: Running Programs"
+target "https://automatetheboringstuff.com/appendixb/"
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Shebang line
+\end_layout
+
+\begin_layout Itemize
+Running Python programs on Windows
+\end_layout
+
+\begin_layout Itemize
+Running Python programs on OS X and Linux
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+\begin_inset CommandInset href
+LatexCommand href
+name "The Boring Stuff - Chapter 10: Debugging"
+target "https://automatetheboringstuff.com/chapter10/"
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Raising Exceptions
+\end_layout
+
+\begin_layout Itemize
+Getting the traceback as a string
+\end_layout
+
+\begin_layout Itemize
+Assertions
+\end_layout
+
+\begin_layout Itemize
+Example: Using an assertion in a traffic light simulation
+\end_layout
+
+\begin_layout Itemize
+Disabling assertions
+\end_layout
+
+\begin_layout Itemize
+Logging
+\end_layout
+
+\begin_layout Itemize
+Using the logging Module
+\end_layout
+
+\begin_layout Itemize
+Don't debug with print
+\end_layout
+
+\begin_layout Itemize
+Logging levels
+\end_layout
+
+\begin_layout Itemize
+Disabling logging
+\end_layout
+
+\begin_layout Itemize
+IDLE's debugger
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+
 \end_layout
 
 \end_body
