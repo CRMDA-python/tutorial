@@ -69,24 +69,11 @@
 \begin_body
 
 \begin_layout Title
-CRMDA Python Workgroup (2016-2017)
+CRMDA Python Workgroup (Fall 2016)
 \end_layout
 
 \begin_layout Author
 Boryana Koseva
-\end_layout
-
-\begin_layout Standard
-\begin_inset CommandInset toc
-LatexCommand tableofcontents
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Part
-Core Topics
 \end_layout
 
 \begin_layout Subsubsection*
@@ -129,7 +116,7 @@ Starting a Jupyter Notebook
 \end_layout
 
 \begin_layout Itemize
-Python IDEs
+Python IDLE and IDEs
 \end_layout
 
 \begin_layout Itemize
