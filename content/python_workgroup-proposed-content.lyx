@@ -195,10 +195,10 @@ Importing Modules and sys.exit()
 
 \begin_deeper
 \begin_layout Itemize
-Go to
+Go to 
 \begin_inset CommandInset href
 LatexCommand href
-name " Chapter 2"
+name "Chapter 2"
 target "https://automatetheboringstuff.com/chapter2/"
 
 \end_inset
@@ -485,7 +485,7 @@ Week #4 (09/23/2016): Manipulating Strings and Regular Expressions
 \begin_layout Itemize
 \begin_inset CommandInset href
 LatexCommand href
-name "The Boring Stuff - Chpter 6: Manipulating Strings"
+name "The Boring Stuff - Chapter 6: Manipulating Strings"
 target "https://automatetheboringstuff.com/chapter6/"
 
 \end_inset
