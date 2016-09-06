@@ -109,7 +109,7 @@ The Boring Stuff
 \end_layout
 
 \begin_layout Section*
-Week #1 (09/02/2016): Introduction 
+Week #1 (09/09/2016): Introduction 
 \end_layout
 
 \begin_layout Itemize
@@ -213,7 +213,7 @@ Note: Don't be confused by the lack of information on the pyperclip module;
 
 \end_deeper
 \begin_layout Section*
-Week #2 (09/09/2016): Flow Control and Functions
+Week #2 (09/16/2016): Flow Control and Functions
 \end_layout
 
 \begin_layout Itemize
@@ -322,7 +322,7 @@ the global statement
 
 \end_deeper
 \begin_layout Section*
-Week #3 (09/16/2016): Lists, Dictionaries, and Data Structures
+Week #3 (09/23/2016): Lists, Dictionaries, and Data Structures
 \end_layout
 
 \begin_layout Itemize
@@ -479,7 +479,7 @@ Nested dictionaries and lists
 
 \end_deeper
 \begin_layout Section*
-Week #4 (09/23/2016): Manipulating Strings and Regular Expressions
+Week #4 (09/30/2016): Manipulating Strings and Regular Expressions
 \end_layout
 
 \begin_layout Itemize
@@ -661,7 +661,7 @@ Combining re.IGNORECASE, re.DOTALL, and re.VERBOSE
 
 \end_deeper
 \begin_layout Section*
-Week #5 (09/30/2016): Input/Output (I/O) Functions
+Week #5 (10/07/2016): Input/Output (I/O) Functions
 \end_layout
 
 \begin_layout Itemize
@@ -743,7 +743,7 @@ Saving variables with the pprint.pformat() function
 
 \end_deeper
 \begin_layout Section*
-Week #6 (10/07/2016): Running Programs and Debugging
+Week #6 (10/14/2016): Running Programs and Debugging
 \end_layout
 
 \begin_layout Itemize
