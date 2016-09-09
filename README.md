@@ -1,4 +1,4 @@
-Sign Up Sheet for Meeting #1 (09/09/2017): https://goo.gl/forms/uP3NJZWSb921oN5R2
+[Sign Up Sheet for Meeting #1 (09/09/2017)] (https://goo.gl/forms/uP3NJZWSb921oN5R2)
 
 # CRMDA Python Workgroup Git Repository
 Fall 2016
@@ -7,8 +7,8 @@ In this repo, you will find guides to help you go through the core Python topics
 
 ## Required software
 In order to take full advantage of the resources, you will need the following software:
- - Git (https://git-scm.com/downloads)
- - Anaconda (https://www.continuum.io/downloads)
+ - [Git] (https://git-scm.com/downloads)
+ - [Anaconda] (https://www.continuum.io/downloads)
 
 ### Dowload Git and workgroup materials 
 Once you have downloaded and installed Git (https://git-scm.com/downloads), you have to clone this repo (i.e. download all the folders and files). To clone the repo, do the following:
@@ -41,3 +41,4 @@ We will use Jupyter Notebooks for the duration of the 6-week Python crash course
 To open a Jupyter Notebook, open your Terminal/Anaconda Prompt, and navigate to the Python workgroup directory. Then, type "jupyter notebook." If everything goes well, your browser will open a new page with the Jupyter logo in the upper left corner and a list of the directory contents. Click on "week1" to enter the directory containing the guide for the first week. In that directory there is a file with the ".ipynb" extension to indicate that it's a Python Notebook. When you click the notebook, it will open in a new tab/window, and you can read/edit/use it.
  
 
+[Borrow the book] (https://drive.google.com/file/d/0B8oQDdzmO1QneTI0bVRmZlJ2dEk/view?usp=sharing)
