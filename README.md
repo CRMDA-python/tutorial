@@ -1,3 +1,5 @@
+Sign Up Sheet for Meeting #1 (09/09/2017): https://goo.gl/forms/uP3NJZWSb921oN5R2
+
 # CRMDA Python Workgroup Git Repository
 Fall 2016
 
