@@ -1,4 +1,4 @@
-#[] (https://goo.gl/forms/U4xjwaSmhkh0x0pI2)
+#[Sign-In Sheet for Week 3] (https://goo.gl/forms/9hXJsDdVM6CZLDUS2)
 
 
 # CRMDA Python Workgroup Git Repository
