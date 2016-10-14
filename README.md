@@ -1,6 +1,4 @@
-#[Sign-In Sheet for Week 4] (https://goo.gl/forms/kxjOmdragPjZi8KA2)
-
-#[What should we do next SURVEY] (https://goo.gl/forms/AUMDPfBb6sRyJbi02)
+#[Sign-In Sheet for Week 5] (https://goo.gl/forms/lDMudEB2GO1A2eF02)
 
 
 # CRMDA Python Workgroup Git Repository
