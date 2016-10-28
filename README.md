@@ -1,4 +1,4 @@
-#[Sign-In Sheet for Week 6] (https://goo.gl/forms/SO9D6JjcvDyCFDUf1)
+#[Sign-In Sheet for Week 7 - Pandas] (https://goo.gl/forms/0MPxmIMMuHJXxyIw1)
 
 
 # CRMDA Python Workgroup Git Repository
