@@ -4,6 +4,7 @@
 #   Date:   11-10-16
 #   Notes:
 #   1)  Data are courtesy of www.fantasyfootballnerd.com
+#   2)  Set your working directory
 ##############################################################
 
 #import modules
@@ -12,8 +13,11 @@ import pandas as pd
 import requests
 import dateutil
 
+# set working folder
+os.chdir('/home/jacob/PycharmProjects/python_JSON')
+
 #import JSON file into a pandas dataframe
-nfl_games = pd.read_json('data/games.json', orient='columns')
+nfl_games = pd.read_json('games.json', orient='columns')
 
 #or just open it from the url directly
 url = 'http://www.fantasyfootballnerd.com/service/schedule/json/test/'
@@ -51,5 +55,5 @@ milehigh
 schedule['gameDate'] = schedule['gameDate'].apply(dateutil.parser.parse, dayfirst=True)
 
 #   write the schedule dataframe to a csv file
-schedule.to_csv('data/schedule.csv', sep=',')
+schedule.to_csv('schedule.csv', sep=',')
 
